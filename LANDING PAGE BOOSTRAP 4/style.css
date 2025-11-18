@@ -1,0 +1,43 @@
+body {
+    padding-top: 56px; 
+}
+
+.navbar-brand {
+    height: 70px;
+}
+
+.jumbotron {
+    text-shadow: #000 2px 2px;
+}
+
+.background-header {
+    background-image: url("images/bg1.png");
+    background-color: aliceblue;
+    height: 400px; 
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* .background-header .container-fluid {
+    height: 100%;
+} */
+
+.button-primer {
+    background-color: #353f4c;
+    border-color: #b4bdc9;
+    color: #fff;
+    text-shadow: 0px 0px;
+    
+}
+.button-primer:hover {
+    background-color: #1e2a38;
+    color: #fff;
+    text-shadow: 0px 0px;
+}
+
+.service-style {
+    margin-top: 15px;
+    background-color: #fafbfc;
+}
