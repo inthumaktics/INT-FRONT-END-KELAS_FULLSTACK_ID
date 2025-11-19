@@ -41,3 +41,40 @@ body {
     margin-top: 15px;
     background-color: #fafbfc;
 }
+
+h2:before,
+h2:after {
+    background-color: #1e2a38;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.button-sekunder {
+    background-color: transparent;
+    border-color: #b4bdc9;
+    color: #353f4c;
+}
+
+.button-sekunder:hover {
+    background-color: #353f4c;
+    border-color: #b4bdc9;
+    color: #fff;
+}
+
+.cover {
+    background: no-repeat center/cover;
+}
